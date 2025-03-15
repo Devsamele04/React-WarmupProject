@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className="w-[15%] h-full flex flex-col items-center pt-5 bg-zinc-100">
       <a
-        className="px-5 py-3 text-blue-400 border cursor-pointer border-blue-100 "
+        className="px-5 py-3 text-blue-400 border cursor-pointer  border-blue-300 "
         href="/create"
       >
         Add new product

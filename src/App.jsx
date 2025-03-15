@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import { Link, Route, Routes, useLocation } from "react-router-dom";
 import Details from "./components/Details";
 import Create from "./components/create";
-import Edit from "./components/edit";
+import Edit from "./components/Edit";
 
 const App = () => {
   const { search, pathname } = useLocation();

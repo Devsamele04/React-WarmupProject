@@ -97,7 +97,7 @@ const Edit = () => {
       ></textarea>
 
       <div className="w-1/2">
-        <button className="px-5 py-3 self-start text-blue-400 border border-blue-100 ">
+        <button className="px-5 py-3 self-start text-blue-400 border border-blue-100 cursor-pointer">
           Edit product
         </button>
       </div>
