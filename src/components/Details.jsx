@@ -49,10 +49,10 @@ const Details = () => {
           $ {product.price}
         </h2>
         <p className="font-semibold">{product.description}</p>
-        <div className="flex gap-2">
+        <div className="flex gap-5">
           <Link
             to={`/edit/${product.id}`}
-            className=" px-5 py-3 w-[15%] text-blue-400 border text-center"
+            className=" px-5 py-3 w-[35%] text-blue-400 border text-center"
           >
             Edit
           </Link>
